@@ -1,6 +1,6 @@
-# FourButtonDialog
+# MultiButtonDialog
 
-An AlertDialog with four (instead of the usual maximum of 3) buttons.
+An AlertDialog with an unlimited number of buttons (instead of the default maximum of 3).
 
 ## Changelog
 
