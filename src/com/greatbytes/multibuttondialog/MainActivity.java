@@ -1,4 +1,6 @@
-package com.greatbytes.fourbuttondialog;
+package com.greatbytes.multibuttondialog;
+
+import com.greatbytes.fourbuttondialog.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -21,15 +23,15 @@ public class MainActivity extends Activity {
 		btnDemo.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View v) {
-				FourButtonDialog mDialog = new FourButtonDialog(mContext, mListener, "Quick user survey", "Do you agree that Android is the most flexible platform eva?", "It sure is, Mike!", "Yes", "Maybe?", "Uh-huh!");
+				MultiButtonDialog mDialog = new MultiButtonDialog(mContext, mListener, "Quick user survey", "Do you agree that Android is the most flexible platform eva?", new String[]{"It sure is, Mike!", "Yes", "Maybe?"});
 				mDialog.show();
 			}
 		});
 	}
 	
-	OnFourButtonClickListener mListener = new OnFourButtonClickListener() {
+	OnMultiButtonClickListener mListener = new OnMultiButtonClickListener() {
 		@Override
-		public void onButtonClick(FourButtonDialog fourButtonDialog, int which) {
+		public void onButtonClick(MultiButtonDialog multiButtonDialog, int which) {
 			Toast.makeText(mContext, "You drunkenly tapped on button " + which, Toast.LENGTH_SHORT).show();
 		}
 	};
