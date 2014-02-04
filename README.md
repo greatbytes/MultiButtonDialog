@@ -2,6 +2,8 @@
 
 An AlertDialog with an unlimited number of buttons (instead of the default maximum of 3).
 
+![ScreenShot](https://lh5.googleusercontent.com/-RJVYLuNcm0E/UvFkOUxJXBI/AAAAAAAAASo/hc42FntTl9s/w554-h985-no/Screenshot_2014-02-04-23-03-58.png)
+
 ## Changelog
 
 ### Current Version: 1.0
