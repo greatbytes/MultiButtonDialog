@@ -1,6 +1,8 @@
 package com.greatbytes.multibuttondialog;
 
 import com.greatbytes.fourbuttondialog.R;
+import com.greatbytes.multibuttondialog.ui.MultiButtonDialog;
+import com.greatbytes.multibuttondialog.ui.OnMultiButtonClickListener;
 
 import android.os.Bundle;
 import android.app.Activity;

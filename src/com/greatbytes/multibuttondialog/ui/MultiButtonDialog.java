@@ -1,4 +1,4 @@
-package com.greatbytes.multibuttondialog;
+package com.greatbytes.multibuttondialog.ui;
 
 import android.os.Bundle;
 import android.app.Dialog;
