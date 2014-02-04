@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FourButtonDialog</string>
+    <string name="explanation">This is demo-implementation of the FourButtonDialog class</string>
+	<string name="btn_demo">I\'d tap that</string>
+</resources>
